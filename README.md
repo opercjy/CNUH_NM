@@ -53,6 +53,7 @@ pip install SimpleITK numpy matplotlib ipywidgets scikit-image scipy pydicom tqd
 * **Axial Z, Coronal Y, Sagittal X 슬라이더:** 이 3개의 슬라이더를 마우스로 움직여 병변의 3차원 중심부로 이동하며, 내부 결절이나 섭취 분포를 층별로 세밀하게 탐색할 수 있습니다.
 * **시각적 신뢰도 확보:** 노란색 컨투어(ROI)가 화면에 표시됩니다. 선생님들께서 팍스(PACS) 시스템을 보며 수동으로 그렸을 때의 윤곽과, 대시보드가 제시하는 윤곽이 일치하는지 확인해 주십시오.
 * **체적(ml) 확인:** 각 영상 하단에 계산된 타겟 체적(Vol: 00.00 ml)이 표시됩니다. 이 값이 임상적 직관과 부합한다면, 앞으로의 번거로운 수동 분할 작업은 이 알고리즘이 완전히 대체할 수 있습니다.
+* <img width="1837" height="1042" alt="download" src="https://github.com/user-attachments/assets/43deab17-10fb-43b4-b967-1d03bf8dd1ea" />
 * **📸 Save Image 버튼:** 최적의 단면과 Threshold를 찾으셨다면 이 버튼을 눌러주세요. 해당 분석 화면이 고해상도 이미지로 `./Experiments/Thyroid_Recon_Paper/` 폴더에 즉시 저장됩니다.
 
 ---
